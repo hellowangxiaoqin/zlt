@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F1F3"
+    android:orientation="vertical"
+    tools:context="android.com.zlt.NewFunction">
+    <LinearLayout
+        android:id="@+id/nf_fanhui"
+        android:background="#4285F4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_marginLeft="3dp"
+            android:id="@+id/back_problem"
+            android:layout_marginTop="13dp"
+            android:src="@drawable/back_bai"
+            android:layout_width="23dp"
+            android:layout_height="23dp"/>
+        <TextView
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:text="新功能介绍"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/azlt_gongneng"
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:textColor="#708090"
+            android:textSize="25dp"
+            android:text="1.9.1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+            android:textSize="15dp"
+            android:text="新版本来啦！
+1.问题修复及完善
+2.性能优化"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/azlt_agreement"
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="2dp">
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"
+            android:textColor="#708090"
+            android:textSize="25dp"
+            android:text="1.9.0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+            android:textSize="15dp"
+            android:text="我们日夜兼程，为大家带来了新的版本
+1.首页及产品页视觉优化
+2.服务分类优化，服务查找更精准
+3.优化启动页，启动app更快速"
+            />
+    </LinearLayout>
+</LinearLayout>

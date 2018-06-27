@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:background="@drawable/border"
+        android:text=""
+        android:textColor="#FF2300"
+        android:id="@+id/first1"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <TextView
+        android:background="@drawable/border"
+        android:text=""
+        android:textColor="#FF2300"
+        android:id="@+id/first2"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <TextView
+        android:background="@drawable/border"
+        android:text=""
+        android:textColor="#FF2300"
+        android:id="@+id/first3"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <TextView
+        android:background="@drawable/border"
+        android:text=""
+        android:textColor="#FF2300"
+        android:id="@+id/first4"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <TextView
+        android:background="@drawable/border"
+        android:text=""
+        android:textColor="#FF2300"
+        android:id="@+id/first5"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <TextView
+        android:background="@drawable/border"
+        android:text=""
+        android:textColor="#FF2300"
+        android:id="@+id/first6"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <TextView
+        android:background="@drawable/border"
+        android:text=""
+        android:textColor="#FF2300"
+        android:id="@+id/first7"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <TextView
+        android:background="@drawable/border"
+        android:text=""
+        android:textColor="#FF2300"
+        android:id="@+id/first8"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <ImageView
+        android:id="@+id/user_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+</LinearLayout>

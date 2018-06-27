@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp">
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:layout_gravity="center">
+            <TextView
+                android:id="@+id/tv_sengmsg_time"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:gravity="right">
+        <TextView
+            android:id="@+id/tv_conitem_msg_content"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bubble_right"
+            android:textSize="23dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="7dp"/>
+        <ImageView
+            android:id="@+id/iv_conitem_msg_photo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/msg_photo_right"/>
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

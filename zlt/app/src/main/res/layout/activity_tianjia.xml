@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.com.zlt.TianjiaActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/collection_fanhui"
+            android:background="#4285F4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <ImageView
+                android:layout_marginLeft="3dp"
+                android:id="@+id/back_people"
+                android:layout_marginTop="13dp"
+                android:src="@drawable/back_bai"
+                android:layout_width="23dp"
+                android:layout_height="23dp"/>
+            <TextView
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:text="返回"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <EditText
+            android:id="@+id/tianjia_wenzi"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@null"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

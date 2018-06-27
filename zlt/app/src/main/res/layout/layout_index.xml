@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="540dp"
+    android:orientation="vertical">
+    <!--第一部分搜索框-->
+    <LinearLayout
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_marginLeft="25dp"
+            android:background="#FFFFFF"
+            android:layout_width="25dp"
+            android:layout_height="50dp">
+            <ImageView
+                android:src="@drawable/search"
+                android:layout_width="25dp"
+                android:layout_height="50dp" />
+        </LinearLayout>
+        <EditText
+            android:id="@+id/et_search"
+            android:hint=""
+            android:background="@drawable/et_bg"
+            android:layout_width="260dp"
+            android:layout_height="50dp" />
+    </LinearLayout>
+    <!--第二部分 其他模块跳转-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="200dp"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_marginLeft="14dp"
+                android:layout_width="110dp"
+                android:layout_height="200dp"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/btn1"
+                    android:background="@drawable/jingdian"
+                    android:layout_marginLeft="40dp"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp" />
+                <TextView
+                    android:text="庄里游"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="35dp"
+                    android:gravity="center_horizontal"
+                    android:textColor="@android:color/darker_gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp" />
+                <Button
+                    android:id="@+id/btn2"
+                    android:background="@drawable/jiaofei"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_horizontal"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+                <TextView
+                    android:text="生活缴费"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="@android:color/darker_gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="110dp"
+                android:layout_height="200dp"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/btn4"
+                    android:background="@drawable/guahao"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp" />
+                <TextView
+                    android:text="预约挂号"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_horizontal"
+                    android:textColor="@android:color/darker_gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp" />
+                <Button
+                    android:id="@+id/btn5"
+                    android:layout_marginTop="18dp"
+                    android:background="@drawable/zhengmin"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="60dp"
+                    android:layout_height="43dp" />
+                <TextView
+                    android:text="好友动态"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_horizontal"
+                    android:textColor="@android:color/darker_gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="200dp"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/btn3"
+                    android:background="@drawable/taxi"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp" />
+                <TextView
+                    android:text="快递查询"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_horizontal"
+                    android:textColor="@android:color/darker_gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp" />
+                <Button
+                    android:id="@+id/btn6"
+                    android:background="@drawable/more11"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="36dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+                <TextView
+                    android:text="全部"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="43dp"
+                    android:gravity="center_horizontal"
+                    android:textColor="@android:color/darker_gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--第三部分 内容推送框-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:text="推荐服务"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:background="#E5E5E5"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"></LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="119dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_tuisong1"
+                    android:background="@drawable/yangsheng"
+                    android:layout_marginLeft="12dp"
+                    android:layout_width="160dp"
+                    android:layout_height="123dp" />
+                <Button
+                    android:id="@+id/btn_tuisong2"
+                    android:background="@drawable/jianshen"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="160dp"
+                    android:layout_height="123dp" />
+            </LinearLayout>
+            <TextView
+                android:text="石家庄头条"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:background="#E5E5E5"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"></LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <ListView
+                    android:id="@+id/news_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center">
+
+                </ListView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

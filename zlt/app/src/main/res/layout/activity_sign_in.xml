@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#EEEEEE"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="#0080DE"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/sign_fanhui"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/sign_jiantou"
+            android:layout_width="25dp"
+            android:layout_height="40dp"/>
+        <TextView
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="10dp"
+            android:textSize="30dp"
+            android:text="签到"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="#EEEEEE"
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="您本月已经签到"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/sign_date"
+                android:text="3"
+                android:textSize="16dp"
+                android:textColor="#0074DF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="天，累计获得积分"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:background="#EEEEEE"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <TextView
+            android:textSize="40dp"
+            android:textColor="#0074DF"
+            android:text="200"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CalendarView
+            android:id="@+id/calendarViewId"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+        </CalendarView>
+    </LinearLayout>
+    <Button
+
+        android:id="@+id/btn_sign"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp"
+        android:text="签到"
+        android:background="#1B89CD"
+        android:layout_width="350dp"
+        android:layout_height="40dp" />
+</LinearLayout>

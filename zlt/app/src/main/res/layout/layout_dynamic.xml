@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5"
+    android:orientation="vertical">
+    <LinearLayout
+        android:background="#4285F4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/cancel"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/back_bai"
+            android:layout_width="23dp"
+            android:layout_height="23dp"/>
+        <TextView
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:text="生活缴费"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <!--<Button-->
+            <!--android:id="@+id/cancel"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:background="@drawable/arrowleft"-->
+            <!--android:layout_width="30dp"-->
+            <!--android:layout_height="30dp" />-->
+
+        <!--<TextView-->
+            <!--android:textSize="15dp"-->
+            <!--android:gravity="center"-->
+            <!--android:text="生活缴费"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent" />-->
+
+    </LinearLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+
+        android:layout_width="wrap_content"
+        android:layout_height="160dp" />
+
+    <LinearLayout
+        android:layout_alignBottom="@id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#79ffffff"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/image_desc"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@android:color/holo_green_light"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:id="@+id/point_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            >
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="30dp"
+        >
+        <TextView
+            android:layout_marginLeft="40dp"
+            android:layout_width="match_parent"
+            android:text="新增缴费"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="24dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:background="#e6e6fa"
+            android:layout_height="1dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="60dp">
+        <LinearLayout
+            android:layout_marginLeft="40dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+            <Button
+                android:id="@+id/pay1"
+                android:background="@drawable/water"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:gravity="center"
+                android:text="水费"
+                android:textSize="10dp"
+                android:layout_width="40dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="40dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+            <Button
+                android:id="@+id/pay2"
+                android:background="@drawable/dian"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:gravity="center"
+                android:text="电费"
+                android:textSize="10dp"
+                android:layout_width="40dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="40dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+            <Button
+                android:id="@+id/pay3"
+                android:background="@drawable/ranqi"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:gravity="center"
+                android:text="燃气费"
+                android:textSize="10dp"
+                android:layout_width="40dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="40dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+            <Button
+                android:id="@+id/pay4"
+                android:background="@drawable/tv"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:gravity="center"
+                android:text="有线电视"
+                android:textSize="10dp"
+                android:layout_width="40dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="60dp">
+        <LinearLayout
+            android:layout_marginLeft="40dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+            <Button
+                android:id="@+id/pay5"
+                android:background="@drawable/tele2"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:gravity="center"
+                android:text="手机缴费"
+                android:textSize="10dp"
+                android:layout_width="40dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="40dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+            <Button
+                android:id="@+id/pay6"
+                android:background="@drawable/inter"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:gravity="center"
+                android:text="宽带费"
+                android:textSize="10dp"
+                android:layout_width="40dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="40dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+            <Button
+                android:id="@+id/pay7"
+                android:background="@drawable/wuye"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:gravity="center"
+                android:text="物业费"
+                android:textSize="10dp"
+                android:layout_width="40dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="40dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+            <Button
+                android:id="@+id/pay8"
+                android:background="@drawable/nuanqi"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:gravity="center"
+                android:text="暖气费"
+                android:textSize="10dp"
+                android:layout_width="40dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:background="#e6e6fa"
+            android:layout_height="1dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="缴费代扣    |    户号管理    |    帮助中心"
+            android:textColor="#b0c4de"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+</LinearLayout>

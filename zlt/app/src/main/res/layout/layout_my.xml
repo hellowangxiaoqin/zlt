@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/content"
+        android:background="@drawable/ppppback"
+        android:layout_width="match_parent"
+        android:layout_height="220dp">
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:background="#FFFFFF"
+            android:orientation="vertical"
+            android:layout_width="380dp"
+            android:layout_height="180dp">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="120dp"
+                    android:layout_height="110dp">
+                    <ImageView
+                        android:scaleType="fitXY"
+                        android:src="@drawable/picture"
+                        android:id="@+id/img_round"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/name_show"
+                        android:text="拖小小"
+                        android:textSize="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/sex_show"
+                        android:textColor="#778899"
+                        android:layout_marginTop="5dp"
+                        android:text="女"
+                        android:textSize="14dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/people_set"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="right"
+                        android:src="@drawable/tuo_set" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+                <LinearLayout
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/detail_show"
+                        android:textSize="12dp"
+                        android:text="一只嘤嘤嘤"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:text="名片号："
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/phone_show"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="200dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <!--<ImageView-->
+                        <!--android:id="@+id/erweima"-->
+                        <!--android:layout_width="30dp"-->
+                        <!--android:layout_height="30dp"-->
+                        <!--android:layout_gravity="right"-->
+                        <!--android:src="@drawable/erweima1" />-->
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:background="#FFFFFF"
+        android:layout_width="380dp"
+        android:layout_height="20dp">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/iTunes"
+            android:background="@drawable/border"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="44dp">
+            <ImageView
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/people2"
+                android:layout_width="25dp"
+                android:layout_height="25dp" />
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:text="账号管理"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/sign_in"
+            android:background="@drawable/border"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="44dp">
+            <ImageView
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/sign1"
+                android:layout_width="25dp"
+                android:layout_height="25dp" />
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:text="签到"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/collection"
+            android:background="@drawable/border"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="44dp">
+            <ImageView
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/collection1"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                />
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:text="收藏"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/people_problem"
+            android:background="@drawable/border"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="44dp">
+            <ImageView
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/problem"
+                android:layout_width="25dp"
+                android:layout_height="25dp" />
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:text="常见问题"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/people_advice"
+            android:background="@drawable/border"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="44dp">
+            <ImageView
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/feedback"
+                android:layout_width="25dp"
+                android:layout_height="25dp" />
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:text="意见反馈"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

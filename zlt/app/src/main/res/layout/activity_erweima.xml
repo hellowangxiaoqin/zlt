@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.com.zlt.ErweimaActivity">
+    <LinearLayout
+        android:background="#FFF0F5"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:background="#4285F5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <ImageView
+                android:id="@+id/erweima_fanhui"
+                android:layout_marginTop="13dp"
+                android:src="@drawable/back_bai"
+                android:layout_width="25dp"
+                android:layout_height="25dp"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="11dp"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:text="我的二维码"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shape"
+            android:layout_width="320dp"
+            android:layout_height="400dp">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="110dp">
+                <ImageView
+                    android:id="@+id/erweima_image"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="12dp"
+                    android:scaleType="fitXY"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp" />
+                <TextView
+                    android:id="@+id/erweima_name"
+                    android:textSize="22dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="35dp"
+                    android:text="拖小小"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:background="#E5E5E5"
+                android:layout_width="320dp"
+                android:layout_height="1dp">
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/user_erweima"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center"
+                android:layout_width="220dp"
+                android:layout_height="210dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

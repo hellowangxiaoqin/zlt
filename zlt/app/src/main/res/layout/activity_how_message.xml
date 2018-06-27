@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:background="#4285F4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_marginLeft="3dp"
+            android:id="@+id/back_problem1"
+            android:layout_marginTop="13dp"
+            android:src="@drawable/back_bai"
+            android:layout_width="23dp"
+            android:layout_height="23dp"/>
+        <TextView
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:text="常见问题"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:text="如何收藏列表消息"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:background="#E5E5E5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="操作方法如下："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="1.登录庄里通，进入首页
+2.选择你感兴趣的列表，点击进入
+3.在有收藏功能的图标处点击收藏
+4.显示收藏成功，即可在收藏下找到
+5.完成收藏功能"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
+

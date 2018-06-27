@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">zlt</string>
+    <drawable name="clr_normal">#FFF</drawable>
+    <drawable name="clr_pressed">#E0E0E0</drawable>
+    <string name="action_settings">Settings</string>
+    <string name="please_enter_delivery_no">请输入快递单号</string>
+
+    <string name="query">查询</string>
+
+    <string name="query_url">http://www.kuaidi100.com/query</string>
+
+</resources>

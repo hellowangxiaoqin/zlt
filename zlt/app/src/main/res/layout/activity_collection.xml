@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#F5F5F5"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/collection_fanhui"
+        android:background="#4285F4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_marginLeft="3dp"
+            android:id="@+id/back_people"
+            android:layout_marginTop="13dp"
+            android:src="@drawable/back_bai"
+            android:layout_width="23dp"
+            android:layout_height="23dp"/>
+        <TextView
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:text="收藏"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="30dp">
+        <EditText
+            android:gravity="center"
+            android:hint="搜索"
+            android:background="@null"
+            android:layout_width="350dp"
+            android:layout_height="30dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/shape"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="100dp">
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/collection_id1"
+                android:textColor="#00FF00"
+                android:text="图片与视频"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:background="#E2E2E2"
+                android:layout_width="1dp"
+                android:layout_height="15dp" />
+            <TextView
+                android:id="@+id/collection_id2"
+                android:layout_marginLeft="15dp"
+                android:textColor="#00FF00"
+                android:text="链接"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:background="#E2E2E2"
+                android:layout_width="1dp"
+                android:layout_height="15dp" />
+            <TextView
+                android:id="@+id/collection_id3"
+                android:layout_marginLeft="15dp"
+                android:textColor="#00FF00"
+                android:text="文件"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:background="#E2E2E2"
+                android:layout_width="1dp"
+                android:layout_height="15dp" />
+            <TextView
+                android:id="@+id/collection_id4"
+                android:layout_marginLeft="15dp"
+                android:textColor="#00FF00"
+                android:text="音乐"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/collection_id5"
+                android:textColor="#00FF00"
+                android:text="聊天记录"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="28dp"
+                android:background="#E2E2E2"
+                android:layout_width="1dp"
+                android:layout_height="15dp" />
+            <TextView
+                android:id="@+id/collection_id6"
+                android:layout_marginLeft="15dp"
+                android:textColor="#00FF00"
+                android:text="语音"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:background="#E2E2E2"
+                android:layout_width="1dp"
+                android:layout_height="15dp" />
+            <TextView
+                android:id="@+id/collection_id7"
+                android:layout_marginLeft="15dp"
+                android:textColor="#00FF00"
+                android:text="笔记"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:background="#E2E2E2"
+                android:layout_width="1dp"
+                android:layout_height="15dp" />
+            <TextView
+                android:id="@+id/collection_id8"
+                android:layout_marginLeft="15dp"
+                android:textColor="#00FF00"
+                android:text="位置"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/xibaipo"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/shape"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="100dp">
+        <TextView
+            android:textSize="25dp"
+            android:text="西柏坡红色旅游区"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

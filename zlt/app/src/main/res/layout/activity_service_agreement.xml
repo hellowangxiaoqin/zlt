@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F1F3"
+    android:orientation="vertical"
+
+    tools:context="android.com.zlt.ServiceAgreement">
+    下午 9:37:43
+    杨文邈 2018/6/25 下午 9:37:43
+    <LinearLayout
+        android:id="@+id/sa_fanhui"
+        android:background="#4285F4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_marginLeft="3dp"
+            android:id="@+id/back_problem"
+            android:layout_marginTop="13dp"
+            android:src="@drawable/back_bai"
+            android:layout_width="23dp"
+            android:layout_height="23dp"/>
+        <TextView
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:text="庄里通服务协议"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="#FFFFFF"
+        android:scrollbarStyle="outsideOverlay">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="庄里通服务协议"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/sa_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="false"
+                android:scrollbars="vertical"
+                android:text="         欢迎您使用庄里通服务。在使用庄里通平台（以下简称“庄里通”）之前，请您认真阅读和理解《庄里通服务协议》（以下简称“本服务协议”） 的全部内容。庄里通服务相关的协议和各类规则，均构成本服务协议的一部分。\n
+一、总则\n
+
+1、庄里通服务使用者（以下简称“用户”）注册登陆北京通或者使用北京通进行任何行为，即表示用户已知悉、完全理解并同意遵守本服务协议的全部内容，视为用户确认自己具有享受庄里通服务、通过庄里通服务进行任何交易等相应的权利能力和行为能力，能够独立承担法律责任。\n
+2、庄里通保留随时修改本服务协议的权利，并对修改情况予以公告，用户在使用服务时应关注并遵守；当发生争议时，以庄里通服务最新的相关协议和规则为准。若用户不同意修改的内容或不同意庄里通随时修改本服务协议，用户有权不使用庄里通提供的服务。\n
+3、出于对未成年人的保护，如果用户在18周岁以下， 在使用庄里通服务前，应当取得监护人的同意，但是，若该用户在庄里通上注册账号或者使用庄里通服务，则视为该用户已得到前述同意。\n
+二、服务内容\n
+
+1、庄里通根据实际情况向用户提供个人社保等信息查询、实名认证、虚拟卡证及其他服务，并根据庄里通服务的有关规定保护用户的个人信息。\n
+2、用户有权根据庄里通服务的有关规定查询个人社保、公积金、个税、小客车摇号结果等信息，在合法范围内上传与储存电子信息、线上交易、预约或订购相关服务、进行评价、咨询投诉及邀请与关注好友等。\n
+3、用户理解庄里通仅按照本服务协议的约定提供服务，除此之外的与网络服务有关的费用（如用户使用网络下载北京通服务软件产生的流量费等）由用户自行负担。\n
+三、用户注册与管理\n
+
+1、用户应当同意本服务协议并按照庄里通页面上的提示完成全部的注册程序。\n
+2、用户在申请使用庄里通服务时应当提供准确的个人资料，在使用庄里通服务过程中应当保证各项服务业务所需信息的真实性。如个人资料有任何变动，用户应当根据庄里通服务的有关规定及时更新。一旦注册成功，用户将得到账号和对应的密码。用户应当对其账号和密码的安全承担全部责任。\n
+3、用户可随时根据提示改变其密码，但是，不得将其账号、密码透露、转让、出借给他人。用户如发现其账号遭他人非法使用或存在安全漏洞的情况，应立即通知庄里通。因黑客行为或用户的保管疏忽导致账号、密码遭他人非法使用，庄里通不承担任何责任。\n
+4、每个用户应当对以其账号进行的所有活动和事件承担全部责任。\n
+5、用户使用庄里通服务时应当严格遵守以下规定：\n
+（1）遵守国家有关法律和法规及所有使用网络服务的协议、规定、程序和惯例；\n
+（2）遵守本服务协议以及庄里通服务相关的其他协议、各类规则的各项规定；\n
+（3）不得传输任何骚扰性的、中伤他人的、辱骂性的、恐吓性的、庸俗的、淫秽的、教唆他人实施犯罪行为等非法的信息资料；\n
+（4）不得侵犯他人的名誉权、隐私权、肖像权、知识产权及其他任何合法权益；\n
+（5）不得利用庄里通进行任何不正当活动；\n
+（6）不得干扰或扰乱网络服务；\n
+（7）不得进行任何不利于北京通的行为。\n
+四、免责声明\n
+
+庄里通将尽一切合理努力保护其获得的用户个人信息，但当以下情况发生时，庄里通不承担相应责任：\n
+（1）因用户注册信息不真实带来的问题和损失；\n
+（2）由于用户行为造成的账号、密码泄露造成的损失；\n
+（3）由于用户信息中有一部分数据是由各委办局提供，因此庄里通对于这部分数据的准确性不做保证。当用户发现此数据不准确或失实时，请向该数据的提供方单位申请修改或变更；\n
+（4）如遇不可抗力或庄里通不能控制的其他事件，庄里通不承担任何责任，但将尽力减少因此而给用户造成的损失和影响。不可抗力或庄里通不能控制的其他事件包括但不限于地震、台风、洪水、火灾、战争、罢工、政府禁令或政府管制、黑客攻击、电信通信管理部门因技术调整导致之重大影响、病毒侵袭、意外原因及电力部门停电、电信网络中断等等；\n
+（5）您通过使用庄里通提供的服务而获得的任何由第三方制作或提供之内容(包括但不限于针对第三方内容所进行的任何点评留言)，庄里通对其合法性、准确性、真实性、适用性、安全性等概不负责，亦不承担任何法律责任。因使用或依赖第三方提供内容或服务所产生的损失或损害，北京通也不负担任何责任；\n
+（6）一切因使用庄里通第三方制作或提供之内容(包括但不限于针对第三方内容所进行的任何点评留言)而可能导致之任何意外、疏忽、违约、名誉或商誉诽谤、版权、知识产权或其他任何权利侵犯及其所造成的任何损失(包括但不限于因任何方式的下载而感染电脑病毒)，庄里通对其概不负责，亦不承担任何法律责任。\n
+五、通知与送达\n
+
+1、本协议项下庄里通对于您所有的通知均可通过北京通平台公告、网页公告、电子邮件、手机短信、服务器推送、常规信件传送或其他常用通讯方式进行；庄里通可任意选择其中一种方式对您发出通知，该等通知发送之时视为已送达您。\n
+2、您如有任何事宜需通知北京通，应当通过庄里通对外正式公布的电话、通信地址、电子邮件等联系方式进行联系。\n">
+
+            </TextView>
+    </LinearLayout>
+</LinearLayout>

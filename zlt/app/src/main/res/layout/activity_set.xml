@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#F1F1F3"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:id="@+id/set_fanhui"
+        android:background="#4285F4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_marginLeft="3dp"
+            android:id="@+id/back_problem"
+            android:layout_marginTop="13dp"
+            android:src="@drawable/back_bai"
+            android:layout_width="23dp"
+            android:layout_height="23dp"/>
+        <TextView
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:text="设置"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Account_security"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/border"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16dp"
+            android:textColor="#708090"
+            android:textSize="20dp"
+            android:text="账户与安全"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="240dp"
+            android:src="@drawable/right_jiantou"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/identity"
+        android:background="@drawable/border"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16dp"
+            android:textColor="#708090"
+            android:textSize="20dp"
+            android:text="实名认证"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="260dp"
+            android:src="@drawable/right_jiantou"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/for_zhuanglitong"
+        android:background="@drawable/border"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16dp"
+            android:textColor="#708090"
+            android:textSize="20dp"
+            android:text="关于庄里通"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="240dp"
+            android:src="@drawable/right_jiantou"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/tuichu_login"
+        android:layout_marginTop="180dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+
+            android:textSize="20dp"
+            android:textColor="#FF0000"
+            android:text="退出登录"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
